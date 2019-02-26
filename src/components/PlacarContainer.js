@@ -23,7 +23,7 @@ export default class PlacarContainer extends React.Component{
 
     marcarGolVisitante(){
         this.setState( {
-            gols_casa: this.state.gols_visitantegols_casa + 1
+            gols_visitante: this.state.gols_visitante + 1
         });
     }
 
